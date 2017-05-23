@@ -32,13 +32,6 @@ Processor cpu1
 Processor cpu2
 Processor cpu3
 Processor cpu4
-Processor cpu5
-Processor cpu6
-Processor cpu7
-Processor cpu8
-Processor cpu9
-Processor cpu10
-Processor cpu11
 
 # Call the script "Replications" times in a row with identical parameter values
 # Replications may be used to alternate colors, for instance.
