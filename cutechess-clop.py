@@ -49,7 +49,7 @@ opponents = [
 ]
 
 # Additional cutechess-cli options, eg. time control and opening book
-options = '-each tc=40/1+0.05 -draw movenumber=80 movecount=5 score=5'
+options = '-each tc=40/2+0.05'
 
 
 def main(argv = None):

@@ -19,18 +19,19 @@ Script ./cutechess-clop.py
 #  IntegerGammaParameter
 # For GammaParameter, quadratic regression is performed on log(x)
 # Warning: 123 and not 123.0 should be used for IntegerParameter
-IntegerParameter BishopPairBonus  0 100
-IntegerParameter DiagonalMobilityBonus  0 50
-IntegerParameter OrthogonalMobilityBonus  0 50
-IntegerParameter DoubledPawnPenalty  0 100
-IntegerParameter PassedPawnBonus  0 100
-IntegerParameter IsolatedPawnPenalty  0 100
+IntegerParameter BishopPairBonus  -100 150
+IntegerParameter DiagonalMobilityBonus  -100 100
+IntegerParameter OrthogonalMobilityBonus  -100 100
+IntegerParameter DoubledPawnPenalty  -100 100
+IntegerParameter PassedPawnBonus  -100 100
+IntegerParameter IsolatedPawnPenalty  -100 100
 
 # This could be the list of machine names in a distributed experiment.
 # In order to run 4 games in parallel, 2 on machine1, 2 on machine2: 
 Processor cpu1
-#Processor machine2
-#Processor machine2
+Processor cpu2
+Processor cpu3
+Processor cpu4
 
 # Call the script "Replications" times in a row with identical parameter values
 # Replications may be used to alternate colors, for instance.
