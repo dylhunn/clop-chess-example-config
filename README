@@ -1,0 +1,13 @@
+This repo contains my files to get CLOP running on my chess engine, to optimize its evaluation function.
+
+It was a bit tricky. I made several changes to the cutechess source to make it compile with the latest linux g++, and to make it print the game results.
+
+To use:
+
+./clop-console c <experiment.clop
+
+Change engines.json and experiment.clop as you wish, and modify cutechess-clop.py with your parameters and engine name.
+
+Be sure to `chmod 777 *` to execute everything.
+
+This works on my Fedora 25, but no promises.

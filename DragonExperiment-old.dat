@@ -1,0 +1,8 @@
+N 6
+P BishopPairBonus
+P DiagonalMobilityBonus
+P OrthogonalMobilityBonus
+P DoubledPawnPenalty
+P PassedPawnBonus
+P IsolatedPawnPenalty
+S        0                   62                   19                   12                   87                    5                    5 

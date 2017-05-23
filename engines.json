@@ -1,0 +1,14 @@
+[      
+   { 
+      "command" : "./dragontooth", 
+      "name" : "dragontooth", 
+      "options" : [ 
+         { 
+            "name" : "Hash", 
+            "value" : 512
+         }
+      ], 
+      "protocol" : "uci" 
+      
+   }
+]
